@@ -61,9 +61,8 @@ newMessage = message.replace('thinking', 'decide');
 console.log(newMessage);
 
 // Log all the characters from the message variable (you can user for..of loop on string)
-for(let char of message){
-    console.log(char);
-}
+let newMessage = message.replace("still", "");
+console.log(newMessage);
 
 // Split all the words in message (split by " " space) and store it in a variable messageArray
 let messageArray = message.split(" ");
